@@ -2,6 +2,14 @@ package exemplo;
 
 public class Pessoa {
     
+    Pessoa ()
+            {
+                this.nome = null;
+                this.telefone = null;
+                this.cidade = null;
+                
+            }
+    
     private String nome;
     private String telefone;
     private Cidade cidade;
